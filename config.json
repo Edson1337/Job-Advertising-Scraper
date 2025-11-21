@@ -1,0 +1,33 @@
+{
+  "search": {
+    "terms": [
+      "qa",
+      "quality assurance",
+      "quality engineer",
+      "software tester",
+      "tester"
+    ],
+    "locations": [
+      {
+        "location": "Brazil",
+        "country": "Brazil"
+      }
+    ],
+    "platforms": ["linkedin"],
+    "results_per_term": 10000,
+    "days_old": 1825
+  },
+  "output": {
+    "directory": "results",
+    "filename": "job_advert_linkedin"
+  },
+  "scraping": {
+    "delay_between_searches": 40,
+    "verbose": 1,
+    "proxies": []
+  },
+  "filters": {
+    "job_type": null,
+    "is_remote": null
+  }
+}
