@@ -74,19 +74,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 # Navigate to project directory
-cd c:\Users\ed133\Documents\mestrado\pesquisa\jobs
-
-# Install dependencies with uv (recommended)
-uv add python-jobspy pandas
-
-# Or sync all dependencies
+cd Jobs-Advertising-Scraper
 uv sync
-```
-
-### Alternative: Using pip
-
-```bash
-pip install python-jobspy pandas
 ```
 
 ## Configuration
